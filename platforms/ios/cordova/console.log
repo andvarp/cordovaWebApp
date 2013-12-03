@@ -1,0 +1,43 @@
+2013-12-02 19:12:12.907 MyWebApp[67422:a0b] Multi-tasking -> Device: YES, App: YES
+2013-12-02 19:12:17.452 MyWebApp[67422:a0b] Resetting plugins due to page load.
+2013-12-02 19:12:18.560 MyWebApp[67422:a0b] Finished load of: file:///Users/josev/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1531DBE9-E1A0-430A-B301-A5CE771D823E/MyWebApp.app/www/index.html
+2013-12-02 19:18:21.814 MyWebApp[68120:a0b] Multi-tasking -> Device: YES, App: YES
+2013-12-02 19:18:21.895 MyWebApp[68120:a0b] Resetting plugins due to page load.
+2013-12-02 19:18:21.982 MyWebApp[68120:a0b] Finished load of: file:///Users/josev/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1531DBE9-E1A0-430A-B301-A5CE771D823E/MyWebApp.app/www/index.html
+2013-12-02 19:21:04.744 MyWebApp[68570:a0b] Multi-tasking -> Device: YES, App: YES
+2013-12-02 19:21:04.864 MyWebApp[68570:a0b] Resetting plugins due to page load.
+2013-12-02 19:21:04.982 MyWebApp[68570:a0b] Finished load of: file:///Users/josev/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1531DBE9-E1A0-430A-B301-A5CE771D823E/MyWebApp.app/www/index.html
+2013-12-02 19:21:05.023 MyWebApp[68570:a0b] THREAD WARNING: ['Device'] took '12.361816' ms. Plugin should use a background thread.
+2013-12-02 19:23:35.822 MyWebApp[69002:a0b] Multi-tasking -> Device: YES, App: YES
+2013-12-02 19:23:35.945 MyWebApp[69002:a0b] Resetting plugins due to page load.
+2013-12-02 19:23:36.054 MyWebApp[69002:a0b] Finished load of: file:///Users/josev/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1531DBE9-E1A0-430A-B301-A5CE771D823E/MyWebApp.app/www/index.html
+2013-12-02 19:40:55.399 MyWebApp[70964:a0b] Multi-tasking -> Device: YES, App: YES
+2013-12-02 19:40:55.507 MyWebApp[70964:a0b] Resetting plugins due to page load.
+2013-12-02 19:40:55.809 MyWebApp[70964:a0b] Finished load of: file:///Users/josev/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1531DBE9-E1A0-430A-B301-A5CE771D823E/MyWebApp.app/www/index.html
+2013-12-02 19:43:35.853 MyWebApp[71406:a0b] Multi-tasking -> Device: YES, App: YES
+2013-12-02 19:43:35.984 MyWebApp[71406:a0b] Resetting plugins due to page load.
+2013-12-02 19:43:36.101 MyWebApp[71406:a0b] Finished load of: file:///Users/josev/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1531DBE9-E1A0-430A-B301-A5CE771D823E/MyWebApp.app/www/index.html
+2013-12-02 19:54:00.445 MyWebApp[72682:a0b] Multi-tasking -> Device: YES, App: YES
+2013-12-02 19:54:00.781 MyWebApp[72682:a0b] [CDVTimer][splashscreen] 318.235993ms
+2013-12-02 19:54:00.781 MyWebApp[72682:a0b] [CDVTimer][TotalPluginStartup] 318.706036ms
+2013-12-02 19:54:00.885 MyWebApp[72682:a0b] Resetting plugins due to page load.
+2013-12-02 19:54:00.986 MyWebApp[72682:a0b] Finished load of: file:///Users/josev/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1531DBE9-E1A0-430A-B301-A5CE771D823E/MyWebApp.app/www/index.html
+2013-12-02 19:54:01.134 MyWebApp[72682:a0b] THREAD WARNING: ['Notification'] took '48.080078' ms. Plugin should use a background thread.
+2013-12-02 19:54:01.134 MyWebApp[72682:a0b] Received Event: deviceready
+2013-12-02 20:47:37.735 MyWebApp[82347:a0b] Multi-tasking -> Device: YES, App: YES
+2013-12-02 20:47:37.822 MyWebApp[82347:a0b] [CDVTimer][splashscreen] 7.996023ms
+2013-12-02 20:47:37.822 MyWebApp[82347:a0b] [CDVTimer][TotalPluginStartup] 8.448958ms
+2013-12-02 20:47:37.886 MyWebApp[82347:a0b] Resetting plugins due to page load.
+2013-12-02 20:47:42.593 MyWebApp[82347:a0b] Finished load of: file:///Users/josev/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1531DBE9-E1A0-430A-B301-A5CE771D823E/MyWebApp.app/www/index.html
+2013-12-02 20:47:42.745 MyWebApp[82347:a0b] THREAD WARNING: ['Notification'] took '31.244141' ms. Plugin should use a background thread.
+2013-12-02 20:47:42.745 MyWebApp[82347:a0b] Received Event: deviceready
+2013-12-02 20:48:29.632 MyWebApp[82347:a0b] Camera.getPicture: source type 1 not available.
+2013-12-02 20:48:33.376 MyWebApp[82347:a0b] THREAD WARNING: ['Camera'] took '3744.158936' ms. Plugin should use a background thread.
+2013-12-02 20:51:10.228 MyWebApp[82967:a0b] Multi-tasking -> Device: YES, App: YES
+2013-12-02 20:51:10.288 MyWebApp[82967:a0b] [CDVTimer][splashscreen] 7.280052ms
+2013-12-02 20:51:10.289 MyWebApp[82967:a0b] [CDVTimer][TotalPluginStartup] 7.901013ms
+2013-12-02 20:51:10.459 MyWebApp[82967:a0b] Resetting plugins due to page load.
+2013-12-02 20:51:11.133 MyWebApp[82967:a0b] THREAD WARNING: ['Device'] took '34.020996' ms. Plugin should use a background thread.
+2013-12-02 20:51:15.962 MyWebApp[82967:a0b] Finished load of: file:///Users/josev/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/86F379A0-7512-497D-A097-B3DAF4727DED/MyWebApp.app/www/index.html
+2013-12-02 20:51:15.984 MyWebApp[82967:a0b] THREAD WARNING: ['Notification'] took '16.159912' ms. Plugin should use a background thread.
+2013-12-02 20:51:15.985 MyWebApp[82967:a0b] Received Event: deviceready
