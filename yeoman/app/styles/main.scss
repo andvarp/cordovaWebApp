@@ -1,82 +1,64 @@
-$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
-
-@import 'sass-bootstrap/lib/bootstrap';
-
-.browsehappy {
+$icon-font-path:"/bower_components/sass-bootstrap/fonts/";
+ @import'sass-bootstrap/lib/bootstrap';
+ .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
     padding: 0.2em 0;
 }
-
 /* Space out content a bit */
-body {
+ body {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
 /* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
+ .header, .marketing, .footer {
     padding-left: 15px;
     padding-right: 15px;
 }
-
 /* Custom page header */
-.header {
+ .header {
     border-bottom: 1px solid #e5e5e5;
 }
-
 /* Make the masthead heading the same height as the navigation */
-.header h3 {
+ .header h3 {
     margin-top: 0;
     margin-bottom: 0;
     line-height: 40px;
     padding-bottom: 19px;
 }
-
 /* Custom page footer */
-.footer {
+ .footer {
     padding-top: 19px;
     color: #777;
     border-top: 1px solid #e5e5e5;
 }
-
 .container-narrow > hr {
     margin: 30px 0;
 }
-
 /* Main marketing message and sign up button */
-.jumbotron {
+ .jumbotron {
     text-align: center;
     border-bottom: 1px solid #e5e5e5;
 }
-
 .jumbotron .btn {
     font-size: 21px;
     padding: 14px 24px;
 }
-
 /* Supporting marketing content */
-.marketing {
+ .marketing {
     margin: 40px 0;
 }
-
 .marketing p + h4 {
     margin-top: 28px;
 }
-
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
+ @media screen and (min-width: 768px) {
     .container {
         max-width: 730px;
     }
-
     /* Remove the padding we set earlier */
-    .header,
-    .marketing,
-    .footer {
+    .header, .marketing, .footer {
         padding-left: 0;
         padding-right: 0;
     }
@@ -88,4 +70,118 @@ body {
     .jumbotron {
         border-bottom: 0;
     }
+}
+/*NEW CSS**************************************************************/
+ * {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+body {
+    -webkit-touch-callout: none;
+    /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;
+    /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;
+    /* prevent copy paste, to allow, change 'none' to 'text' */
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-text-size-adjust: none;
+    background-color:#E4E4E4;
+    background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, #A7A7A7), color-stop(0.51, #E4E4E4));
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0;
+    padding:0;
+    text-transform:uppercase;
+    width:100%;
+}
+#frame {
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+    position: relative;
+}
+#app {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#header {
+    width: 100%;
+    // background-image: url(../images/header-line.png);
+    // background-size: 100%;
+    background: #006eb9;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #006eb9 0%, #005698 50%, #002b5f 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #006eb9), color-stop(50%, #005698), color-stop(100%, #002b5f));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #006eb9 0%, #005698 50%, #002b5f 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(to right, #006eb9 0%, #005698 50%, #002b5f 100%);
+    /* W3C */
+    padding-bottom: 1%;
+    overflow: hidden;
+}
+#camera-icon {
+    float: left;
+    display: block;
+    height: 100%;
+    width: 25%;
+}
+#camera-icon img {
+    display: block;
+    margin: 2.5% 0 0 5%;
+    max-width: 120px;
+    min-width: 40px;
+    text-align: left;
+    width: 20%;
+}
+#logo {
+    float: left;
+    display: block;
+    width: 50%;
+}
+#logo img {
+    display: block;
+    margin: 0 auto;
+    max-width: 121px;
+    min-width: 68px;
+    width: 17%;
+}
+#menu-icon {
+    float: right;
+    display: block;
+    height: 100%;
+    width: 25%;
+}
+#menu-icon img {
+    display: block;
+    float: right;
+    margin: 3% 2% 0 0;
+    max-width: 70px;
+    min-width: 48px;
+    width: 20%;
+}
+#camera-icon img, #menu-icon img {
+    cursor: pointer;
+}
+#camera-icon img:hover, #menu-icon img:hover {
+    opacity: 0.5;
+}
+#menu {
+    right:-35%;
+    width: 35%;
+    height: 100%;
+    position: absolute;
+}
+#menu span#menu-title {
 }

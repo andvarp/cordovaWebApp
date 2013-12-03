@@ -37,20 +37,16 @@ var app = {
         $("#camara").on("click", app.OpenCamara);
     },
     OpenCamara: function (event) {
-        navigator.camera.getPicture(function (imageURI) {
+        alert("entra");
+        navigator.camera.getPicture(function(imageURI) {
             var image = document.getElementById('myImage');
             image.src = imageURI;
-             navigator.notification.alert(
-                imageURI, // message
-                null, // callback
-                'Image', // title
-                'Done' // buttonName
-                );
+            alert("imagen en " + imageURI);
         }, function (message) {
             alert('Failed because: ' + message);
         }, {
-            quality: 100,
-            destinationType: Camera.DestinationType.FILE_URI
+            quality: 50,
+            destinationType:  Camera.DestinationType.FILE_URI
         });
 
 
