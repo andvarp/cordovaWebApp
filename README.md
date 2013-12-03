@@ -14,6 +14,8 @@
 
 - Install the generator: `npm install -g generator-cordova`
 
+- Get bower and nodejs dependencies inside `yeoman` folder
+
 ## Usage
 
 ### Serve to emulator

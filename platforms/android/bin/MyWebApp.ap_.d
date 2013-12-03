@@ -97,8 +97,8 @@
 /Users/josev/sites/cordovaTestWebApp/platforms/android/assets/www/plugins/org.apache.cordova.vibration/www \
 /Users/josev/sites/cordovaTestWebApp/platforms/android/assets/www/plugins/org.apache.cordova.vibration/www/vibration.js \
 /Users/josev/sites/cordovaTestWebApp/platforms/android/assets/www/scripts/20bdd8fe.plugins.js \
+/Users/josev/sites/cordovaTestWebApp/platforms/android/assets/www/scripts/23d18751.main.js \
 /Users/josev/sites/cordovaTestWebApp/platforms/android/assets/www/scripts/dbd26eaf.vendor.js \
-/Users/josev/sites/cordovaTestWebApp/platforms/android/assets/www/scripts/f1c49a57.main.js \
 /Users/josev/sites/cordovaTestWebApp/platforms/android/assets/www/scripts/vendor \
 /Users/josev/sites/cordovaTestWebApp/platforms/android/assets/www/scripts/vendor/d7100892.modernizr.js \
 /Users/josev/sites/cordovaTestWebApp/platforms/android/assets/www/styles/2bdeec7b.main.css \

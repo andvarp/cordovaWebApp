@@ -40,13 +40,13 @@ var app = {
         alert("entra");
         navigator.camera.getPicture(function(imageURI) {
             var image = document.getElementById('myImage');
-            image.src = "data:image/jpeg;base64," + imageURI;
+            image.src = imageURI;
             alert("imagen en " + imageURI);
         }, function (message) {
             alert('Failed because: ' + message);
         }, {
             quality: 50,
-            destinationType: Camera.DestinationType.DATA_URL
+            destinationType:  Camera.DestinationType.FILE_URI
         });
 
 
