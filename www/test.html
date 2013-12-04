@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densityDpi=device-dpi" />
+        <link rel="stylesheet" href="styles/9d0db234.main.css"/>
+        <title>Holiday Cards</title>
+        <style type="text/css">
+            button {
+                margin-top: 50px;
+                margin-left: 20px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id="frame">
+            <div id="app">
+                <div id="header">
+                    <span id="camera-icon">
+                        <img src="images/1e14302c.camera.png" alt="Camera">
+                    </span>
+                    <span id="logo">
+                        <img src="images/c39c58ec.logo.png" alt="Folds of Honor">
+                    </span>
+                    <span id="menu-icon">
+                        <img src="images/d7fe36b8.menu.png" alt="Menu">
+                    </span>
+                </div>
+            </div>
+            <div id="menu">
+                <span id="menu-title">MENU</span>
+                <ul>
+                    <li>
+                        <i id="tool"></i>SETTINGS</li>
+                    <li>
+                        <i id="coin"></i>DONATE</li>
+                    <li>
+                        <i id="help"></i>HELP</li>
+                    <li>
+                        <i id="info"></i>ABOUT</li>
+                </ul>
+                <span id="rapp"></span>
+            </div>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            function captureImage() {
+                navigator.camera.getPicture(onSuccess, onFail, {
+                    quality: 50,
+                    destinationType: Camera.DestinationType.DATA_URL
+                });
+            }
+
+            function onSuccess(imageData) {
+                var image = document.getElementById('myImage');
+                image.src = "data:image/jpeg;base64," + imageData;
+                alert("success");
+            }
+
+            function onFail(message) {
+                alert('Failed because: ' + message);
+            }
+        </script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="scripts/dbd26eaf.vendor.js"></script>
+        <script src="scripts/52eff311.main.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#camera img").click(function() {
+                    captureImage();
+                });
+                var menuShow = false;
+                $("#menu-icon img").click(function() {
+                    if (menuShow === false) {
+                        $("#menu").animate({
+                            "right": "0"
+                        }, 200);
+                        $("#app").animate({
+                            "left": "-35%"
+                        }, 200);
+                        menuShow = true;
+                    } else {
+                        $("#menu").animate({
+                            "right": "-35%"
+                        }, 200);
+                        $("#app").animate({
+                            "left": "0"
+                        }, 200);
+                        menuShow = false;
+                    }
+                });
+            });
+        </script>
+    </body>
+
+</html>
